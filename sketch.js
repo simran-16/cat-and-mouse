@@ -17,6 +17,13 @@ function setup(){
     //create tom and jerry sprites here
     background1= createSprite(0,0,1000,800);
     background1.addImage(backgroundimg);
+    background1.scale=5;
+    mouse = createSprite(250,600);
+    mouse.addImage(mouseimg);
+    mouse.scale=0.1;
+    cat= createSprite(750,600);
+    cat.addImage(catimg);
+    cat.scale=0.2;
 }
 
 function draw() {
@@ -34,9 +41,10 @@ function keyPressed(){
   //For moving and changing animation write code here
 if(keyCode === LEFT_ARROW){
 
-    cat.velocityX=-5;
+    
     cat.addAnimation("catrunning", catimg2);
     cat.changeAnimation("catrunning");
+    cat.velocityX=-5;
     mouse.addAnimatin("teasing", mouseimg2);
     mouse.changeAnimation("teasing");
 }
