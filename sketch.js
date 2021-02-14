@@ -45,7 +45,7 @@ if(keyCode === LEFT_ARROW){
     cat.addAnimation("catrunning", catimg2);
     cat.changeAnimation("catrunning");
     cat.velocityX=-5;
-    mouse.addAnimatin("teasing", mouseimg2);
+    mouse.addAnimation("teasing", mouseimg2);
     mouse.changeAnimation("teasing");
 }
 
