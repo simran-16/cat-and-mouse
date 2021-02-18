@@ -5,11 +5,11 @@ var catimg2, mouseimg2;
 
 function preload() {
     //load the images here
-    backgroundimg= loadImage("images/garden.png");
-    catimg= loadImage("images/cat1.png");
-    catimg2 =loadAnimation("images/cat2.png", "images/cat3.png", "images/cat4.png");
-    mouseimg = loadImage("images/mouse1.png");
-    mouseimg2= loadAnimation("images/mouse2.png", "images/mouse3.png", "images/mouse4.png");
+    backgroundimg= loadImage("garden.png");
+    catimg= loadImage("cat1.png");
+    catimg2 =loadAnimation("cat2.png", "cat3.png", "cat4.png");
+    mouseimg = loadImage("mouse1.png");
+    mouseimg2= loadAnimation("mouse2.png", "mouse3.png", "mouse4.png");
 }
 
 function setup(){
